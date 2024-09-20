@@ -56,4 +56,3 @@ This section provides functions for computing the Fourier Transform of the objec
 * `Rtheta_fft(binary_object, order1, order2, k=7, convexhull=False)`: Computes the Fourier Transform of radial distances from the center to contour points in polar coordinates. It allows selecting a range of Fourier amplitudes to return and offers the option to use the convex hull instead of the original contour.
 * `XY_fft(binary_object, order1, order2, k=7)`: Computes the Fourier Transform of the object's contour coordinates. It allows selecting a range of Fourier amplitudes to return.
 
-**Overall, this library provides a comprehensive set of functions for characterizing the size, orientation, and form of binary shapes in images.**
