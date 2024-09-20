@@ -1,4 +1,4 @@
-## Readme for Descriptor_form.py
+## Readme : Descriptor_form.py
 
 **Size, Orientation and Form Descriptors Library**
 
