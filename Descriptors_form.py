@@ -81,6 +81,20 @@ class Basic_Parameters:
 
 	## B.2 Size measurments methods
 	@staticmethod
+	def equivalent_area_disc(binary_object):
+		"""
+		Computes the equivalent diameter of a disc with the same area as the shape.
+		
+		Parameters:
+		- binary_object: A binary image representing the shape.
+		
+		Returns:
+		- The equivalent diameter of the shape based on its area.
+		"""
+		particle_area = Basic_Parameters.particle_area(binary_object)
+		return np.sqrt(4 * particle_area / np.pi)
+		
+	@staticmethod
 	def maximum_inscribed_circle(binary_object, display_plot=False):
 		"""
 		Calculates the maximum inscribed circle in a binary object.
@@ -354,20 +368,6 @@ class Form_Descriptors:
 		return min_circ_radius / max_inscribed_radius
 	
 	@staticmethod
-	def equivalent_area_disc(binary_object):
-		"""
-		Computes the equivalent diameter of a disc with the same area as the shape.
-		
-		Parameters:
-		- binary_object: A binary image representing the shape.
-		
-		Returns:
-		- The equivalent diameter of the shape based on its area.
-		"""
-		particle_area = Basic_Parameters.particle_area(binary_object)
-		return np.sqrt(4 * particle_area / np.pi)
-	
-	@staticmethod
 	def circularity(binary_object):
 		"""
 		Computes the circularity of a shape, measuring how close it is to a perfect circle.
@@ -466,7 +466,7 @@ class Form_Descriptors:
 	@staticmethod
 	def independant_fourier_descriptors(binary_object, k=7, convexhull=False, order1=1, order2=12):
 		"""
-		Computes the normalized fourier amplitudes as independant descriptors.
+		Computes the fourier amplitudes as independant descriptors.
 		
 		Parameters:
 		- binary_object (ndarray): a binary image representing the shape.
