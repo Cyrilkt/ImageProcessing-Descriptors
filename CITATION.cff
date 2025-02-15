@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite our paper:"
+authors:
+  - family-names: "Back"
+    given-names: "A. L."
+  - family-names: "Kana Tepakbong"
+    given-names: "C."
+  - family-names: "Bédard"
+    given-names: "L. P."
+  - family-names: "Barry"
+    given-names: "A."
+title: "From Rocks to Pixels: A Comprehensive Framework for Grain Shape Characterization Through the Image Analysis of Size, Orientation, and Form Descriptors"
+version: "1.0.0"
+doi: "10.3389/feart.2025.1508690"
+date-released: "2025-02-13"
+repository-code: "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Back"
+      given-names: "A. L."
+    - family-names: "Kana Tepakbong"
+      given-names: "C."
+    - family-names: "Bédard"
+      given-names: "L. P."
+    - family-names: "Barry"
+      given-names: "A."
+  title: "From Rocks to Pixels: A Comprehensive Framework for Grain Shape Characterization Through the Image Analysis of Size, Orientation, and Form Descriptors"
+  journal: "Frontiers in Earth Science"
+  volume: "13"
+  year: "2025"
+  doi: "10.3389/feart.2025.1508690"
