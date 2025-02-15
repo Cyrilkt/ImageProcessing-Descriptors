@@ -57,11 +57,32 @@ circularity = Form_Descriptors.circularity(binary_image)
 fourier_desc = Form_Descriptors.independant_fourier_descriptors(
     binary_image, k=7, convexhull=True, order1=1, order2=12
 )
-
+ 
 print("Perimeter:", perimeter)
 print("Area:", area)
 print("Orientation:", orientation)
 print("Circularity:", circularity)
 print("Fourier Descriptors:", fourier_desc)
 
+```
+## 📄 Citation
+
+If you use this code, please cite our paper:
+
+📄 **From Rocks to Pixels: A Comprehensive Framework for Grain Shape Characterization Through the Image Analysis of Size, Orientation, and Form Descriptors**  
+_A. L. Back, C. Kana Tepakbong, L. P. Bédard, and A. Barry_  
+Published in **Frontiers in Earth Science, 2025**  
+🔗 **[Read the Full Paper](https://www.frontiersin.org/articles/10.3389/feart.2025.1508690/full)**  
+
+For BibTeX users, you can also cite this repository:
+
+```bibtex
+@article{back2025rocks,
+  author    = {A. L. Back and C. Kana Tepakbong and L. P. Bédard and A. Barry},
+  title     = {From Rocks to Pixels: A Comprehensive Framework for Grain Shape Characterization Through the Image Analysis of Size, Orientation, and Form Descriptors},
+  journal   = {Frontiers in Earth Science},
+  volume    = {13},
+  year      = {2025},
+  doi       = {10.3389/feart.2025.1508690}
+}
 
