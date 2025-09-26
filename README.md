@@ -1,4 +1,4 @@
-# Descriptor_form.py
+# PyShapeDescriptors.py
 
 **Size, Orientation, and Form Descriptors Library**
 
